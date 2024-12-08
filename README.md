@@ -6,7 +6,7 @@ A collection of programs leveraging python logic to solve real-life problems.
 
 ## Authors
 
-- [@RandmDood](https://www.github.com/RandmDood)
+- [@VictorSunny](https://www.github.com/VictorSunny)
 
 
 # Hi, I'm Victor! 👋
@@ -23,4 +23,5 @@ Python , HTML, CSS, BeautifulSoup, Scrapy, Pandas, Requests, Django, Selenium...
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+ 
 
