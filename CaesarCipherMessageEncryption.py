@@ -1,4 +1,3 @@
-import os
 letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 word = input("Enter any message\n").lower()
 shift = int(input("Enter your shift value"))
@@ -30,26 +29,8 @@ def decrypt(c, d):
 			letters[pos2] = letters[newpos]
 		resultB += letters[pos2]
 		letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
-	return resultB
-		
-
-def run_decrypt(resultB):
-		decr = input('Enter "x" to see decrypted message').lower()
-		os.system('clear')
-		if decr == "x":
-			pword = int(input("Enter secret shift value"))
-			if pword == shift:
-				print(f"here is your decrypted message: {resultB}")
-			else:
-				retry_request = input('Shift value incorrect. enter "X" to retry').lower()
-				if retry_request == "x":
-					run_decrypt(resultB)
-				else:
-					print("Session ended")
-
-
-
-				
+	print(f"here is your decrypted message: {resultB}")
+	
 encrypt(word, shift)
-decrpyted_message = decrypt(result, shift)
-run_decrypt(decrpyted_message)
+decrypt(result, shift)
+	
