@@ -13,7 +13,7 @@ A collection of programs leveraging python logic to solve real-life problems.
 
 
 ## 🚀 About Me 
-I'm a freelance python developer open to taking up new challenges in the fields of data extraction & processing, as well as backend web/app development.
+I'm a python developer open to taking up new challenges in the fields of data extraction & processing, as well as backend web/app development.
 
 
 ## 🛠 Skills 🐍 🐼 🕷️
